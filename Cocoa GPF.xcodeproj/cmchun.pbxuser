@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = 53D3C50807414E01004B4474 /* Cocoa GPF */;
+		activeTarget = 8D1107260486CEB800E47090 /* Cocoa GPF */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Cocoa GPF */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 53D3C51307414E05004B4474 /* Code sense */;
+		executables = (
+			53D3C50807414E01004B4474 /* Cocoa GPF */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					276.2085,
+					259.5991,
+					286.5835,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					357.8799,
+					201.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					313,
+					20,
+					97,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					476,
+					10,
+					20,
+					102,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 176600448;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					clz = XDDesignSmartGroup;
+					description = "Displays Xdesign models";
+					globalID = 2E4A936305E6979E00701470;
+					name = Design;
+					preferences = {
+						image = Design;
+						isLeaf = 0;
+					};
+				},
+			);
+			PBXWorkspaceStateSaveDate = 176600448;
+		};
+		perUserProjectItems = {
+			532ECE4E0A86B5B700B58BC7 /* PBXTextBookmark */ = 532ECE4E0A86B5B700B58BC7 /* PBXTextBookmark */;
+			535E9C040A2EE4E700227506 /* PBXTextBookmark */ = 535E9C040A2EE4E700227506 /* PBXTextBookmark */;
+			5369BCF00827433C0096CF0A /* PBXTextBookmark */ = 5369BCF00827433C0096CF0A /* PBXTextBookmark */;
+			5369BCF20827433C0096CF0A /* PBXTextBookmark */ = 5369BCF20827433C0096CF0A /* PBXTextBookmark */;
+		};
+		sourceControlManager = 53D3C51207414E05004B4474 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 625}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {533, 625}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	5302DC670751AE5F00609068 /* HullWhiteTwo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 1245}}";
+			sepNavSelRange = "{977, 0}";
+			sepNavVisRect = "{{0, 311}, {533, 625}}";
+			sepNavWindowFrame = "{{-641, -188}, {578, 746}}";
+		};
+	};
+	5302DC680751AE5F00609068 /* HullWhiteTwo.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 2673}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {533, 625}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	532ECE4E0A86B5B700B58BC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53D3C54807414F38004B4474 /* GenericParticleFilter.m */;
+		name = "}";
+		rLen = 6;
+		rLoc = 17832;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	535A1A0307530C3A0084BACA /* SimpleSystem2.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 711}}";
+			sepNavSelRange = "{508, 0}";
+			sepNavVisRect = "{{0, 0}, {533, 711}}";
+			sepNavWindowFrame = "{{38, 144}, {578, 832}}";
+		};
+	};
+	535A1A0407530C3A0084BACA /* SimpleSystem2.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 2799}}";
+			sepNavSelRange = "{962, 0}";
+			sepNavVisRect = "{{0, 619}, {533, 625}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	535E9C040A2EE4E700227506 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53D3C54807414F38004B4474 /* GenericParticleFilter.m */;
+		name = "}";
+		rLen = 6;
+		rLoc = 17832;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	5369BCF00827433C0096CF0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53D3C54A07414F38004B4474 /* GenericSystem.m */;
+		name = "GenericSystem.m: simulateWithInitialState:control:";
+		rLen = 94;
+		rLoc = 11075;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 10525;
+	};
+	5369BCF20827433C0096CF0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53D3C54A07414F38004B4474 /* GenericSystem.m */;
+		name = "GenericSystem.m: simulateWithInitialState:control:";
+		rLen = 94;
+		rLoc = 11075;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 10525;
+	};
+	53D3C50807414E01004B4474 /* Cocoa GPF */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Cocoa GPF";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	53D3C51207414E05004B4474 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	53D3C51307414E05004B4474 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	53D3C53B07414F11004B4474 /* MathMatrix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 2393}}";
+			sepNavSelRange = "{2849, 31}";
+			sepNavVisRect = "{{0, 1519}, {775, 874}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	53D3C53C07414F11004B4474 /* MathMatrix.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 14447}}";
+			sepNavSelRange = "{17290, 0}";
+			sepNavVisRect = "{{0, 9366}, {775, 874}}";
+			sepNavWindowFrame = "{{1, 79}, {568, 923}}";
+		};
+	};
+	53D3C53D07414F11004B4474 /* MathUtil.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 1357}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {533, 625}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	53D3C54707414F38004B4474 /* GenericParticleFilter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 3597}}";
+			sepNavSelRange = "{7321, 0}";
+			sepNavVisRect = "{{0, 518}, {804, 874}}";
+			sepNavWindowFrame = "{{367, 0}, {578, 746}}";
+		};
+	};
+	53D3C54807414F38004B4474 /* GenericParticleFilter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {713, 22904}}";
+			sepNavSelRange = "{17832, 6}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+			sepNavWindowFrame = "{{575, 65}, {636, 937}}";
+		};
+	};
+	53D3C54907414F38004B4474 /* GenericSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 2995}}";
+			sepNavSelRange = "{2959, 0}";
+			sepNavVisRect = "{{0, 414}, {804, 874}}";
+		};
+	};
+	53D3C54A07414F38004B4474 /* GenericSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {651, 8330}}";
+			sepNavSelRange = "{11075, 94}";
+			sepNavVisRect = "{{0, 6875}, {651, 869}}";
+			sepNavWindowFrame = "{{4, 25}, {578, 832}}";
+		};
+	};
+	53D3C54B07414F38004B4474 /* HullWhiteOne.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 1357}}";
+			sepNavSelRange = "{1992, 0}";
+			sepNavVisRect = "{{0, 731}, {533, 625}}";
+			sepNavWindowFrame = "{{-1233, -8}, {578, 746}}";
+		};
+	};
+	53D3C54C07414F38004B4474 /* HullWhiteOne.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 5627}}";
+			sepNavSelRange = "{176, 25}";
+			sepNavVisRect = "{{0, 0}, {533, 625}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	53D3C54D07414F38004B4474 /* RandomNumberGenerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {552, 839}}";
+			sepNavSelRange = "{1386, 0}";
+			sepNavVisRect = "{{0, 59}, {552, 780}}";
+		};
+	};
+	53D3C54E07414F38004B4474 /* RandomNumberGenerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 2449}}";
+			sepNavSelRange = "{2923, 0}";
+			sepNavVisRect = "{{0, 1652}, {720, 462}}";
+			sepNavWindowFrame = "{{608, 160}, {578, 832}}";
+		};
+	};
+	53D3C55C07414F4C004B4474 /* SimpleSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 625}}";
+			sepNavSelRange = "{545, 0}";
+			sepNavVisRect = "{{0, 0}, {533, 625}}";
+			sepNavWindowFrame = "{{30, 0}, {578, 746}}";
+		};
+	};
+	53D3C55D07414F4C004B4474 /* SimpleSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {680, 3695}}";
+			sepNavSelRange = "{2378, 0}";
+			sepNavVisRect = "{{0, 1243}, {680, 874}}";
+			sepNavWindowFrame = "{{-584, -219}, {571, 973}}";
+		};
+	};
+	53D3C56207414F8D004B4474 /* random.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {533, 1148}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRect = "{{0, 0}, {533, 625}}";
+			sepNavWindowFrame = "{{15, 0}, {578, 746}}";
+		};
+	};
+	53D3C586074150C7004B4474 /* Controller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {680, 2701}}";
+			sepNavSelRange = "{2617, 10}";
+			sepNavVisRect = "{{0, 1980}, {680, 721}}";
+			sepNavWindowFrame = "{{308, 0}, {608, 746}}";
+		};
+	};
+	53D3C587074150C7004B4474 /* Controller.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {704, 9029}}";
+			sepNavSelRange = "{7032, 41}";
+			sepNavVisRect = "{{0, 3350}, {680, 874}}";
+			sepNavWindowFrame = "{{175, 28}, {716, 964}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Cocoa GPF */ = {
+		activeExec = 0;
+		executables = (
+			53D3C50807414E01004B4474 /* Cocoa GPF */,
+		);
+	};
+}

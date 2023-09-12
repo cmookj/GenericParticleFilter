@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9FCB1A2AAFC7F300A1BD5C /* librandom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9FCB192AAFC7F300A1BD5C /* librandom.a */; };
+		0ECE03E8188CD8E0005E867C /* RandomWalk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECE03E7188CD8E0005E867C /* RandomWalk.m */; };
+		0EF2FB05182A1F2100208F92 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF2FB04182A1F2100208F92 /* Accelerate.framework */; };
+		5302DC690751AE5F00609068 /* HullWhiteTwo.h in Resources */ = {isa = PBXBuildFile; fileRef = 5302DC670751AE5F00609068 /* HullWhiteTwo.h */; };
+		5302DC6A0751AE5F00609068 /* HullWhiteTwo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5302DC680751AE5F00609068 /* HullWhiteTwo.mm */; };
+		535A1A0507530C3A0084BACA /* SimpleSystem2.h in Resources */ = {isa = PBXBuildFile; fileRef = 535A1A0307530C3A0084BACA /* SimpleSystem2.h */; };
+		535A1A0607530C3A0084BACA /* SimpleSystem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 535A1A0407530C3A0084BACA /* SimpleSystem2.m */; };
+		53D3C53F07414F11004B4474 /* MathMatrix.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C53B07414F11004B4474 /* MathMatrix.h */; };
+		53D3C54007414F11004B4474 /* MathMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C53C07414F11004B4474 /* MathMatrix.m */; };
+		53D3C54107414F11004B4474 /* MathUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C53D07414F11004B4474 /* MathUtil.c */; };
+		53D3C54207414F11004B4474 /* MathUtil.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C53E07414F11004B4474 /* MathUtil.h */; };
+		53D3C54F07414F38004B4474 /* GenericParticleFilter.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C54707414F38004B4474 /* GenericParticleFilter.h */; };
+		53D3C55007414F38004B4474 /* GenericParticleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C54807414F38004B4474 /* GenericParticleFilter.m */; };
+		53D3C55107414F38004B4474 /* GenericSystem.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C54907414F38004B4474 /* GenericSystem.h */; };
+		53D3C55207414F38004B4474 /* GenericSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C54A07414F38004B4474 /* GenericSystem.m */; };
+		53D3C55307414F38004B4474 /* HullWhiteOne.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C54B07414F38004B4474 /* HullWhiteOne.h */; };
+		53D3C55407414F38004B4474 /* HullWhiteOne.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C54C07414F38004B4474 /* HullWhiteOne.mm */; };
+		53D3C55507414F38004B4474 /* RandomNumberGenerator.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C54D07414F38004B4474 /* RandomNumberGenerator.h */; };
+		53D3C55607414F38004B4474 /* RandomNumberGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C54E07414F38004B4474 /* RandomNumberGenerator.m */; };
+		53D3C55E07414F4C004B4474 /* SimpleSystem.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C55C07414F4C004B4474 /* SimpleSystem.h */; };
+		53D3C55F07414F4C004B4474 /* SimpleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C55D07414F4C004B4474 /* SimpleSystem.m */; };
+		53D3C56307414F8D004B4474 /* random.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C56207414F8D004B4474 /* random.h */; };
+		53D3C588074150C7004B4474 /* Controller.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C586074150C7004B4474 /* Controller.h */; };
+		53D3C589074150C7004B4474 /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C587074150C7004B4474 /* Controller.mm */; };
+		53EC72EE0A29D872004C918A /* Bezier2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53EC72EA0A29D872004C918A /* Bezier2D.cpp */; };
+		53EC72EF0A29D872004C918A /* CAGD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53EC72EB0A29D872004C918A /* CAGD.cpp */; };
+		53EC72F00A29D872004C918A /* CubicSpline2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53EC72EC0A29D872004C918A /* CubicSpline2D.cpp */; };
+		53EC72F10A29D872004C918A /* Point2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53EC72ED0A29D872004C918A /* Point2D.cpp */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E9FCB192AAFC7F300A1BD5C /* librandom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librandom.a; path = ../../lib/random/librandom.a; sourceTree = "<group>"; };
+		0ECE03E6188CD8E0005E867C /* RandomWalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomWalk.h; sourceTree = "<group>"; };
+		0ECE03E7188CD8E0005E867C /* RandomWalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomWalk.m; sourceTree = "<group>"; };
+		0EF2FB031828B20300208F92 /* Point3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Point3D.h; path = ../../include/CAGD/Point3D.h; sourceTree = "<group>"; };
+		0EF2FB04182A1F2100208F92 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Cocoa GPF_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cocoa GPF_Prefix.pch"; sourceTree = "<group>"; };
+		5302DC670751AE5F00609068 /* HullWhiteTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HullWhiteTwo.h; sourceTree = "<group>"; };
+		5302DC680751AE5F00609068 /* HullWhiteTwo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HullWhiteTwo.mm; sourceTree = "<group>"; };
+		535A1A0307530C3A0084BACA /* SimpleSystem2.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SimpleSystem2.h; sourceTree = "<group>"; };
+		535A1A0407530C3A0084BACA /* SimpleSystem2.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SimpleSystem2.m; sourceTree = "<group>"; };
+		53D3C53B07414F11004B4474 /* MathMatrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MathMatrix.h; sourceTree = "<group>"; };
+		53D3C53C07414F11004B4474 /* MathMatrix.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MathMatrix.m; sourceTree = "<group>"; };
+		53D3C53D07414F11004B4474 /* MathUtil.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MathUtil.c; sourceTree = "<group>"; };
+		53D3C53E07414F11004B4474 /* MathUtil.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MathUtil.h; sourceTree = "<group>"; };
+		53D3C54707414F38004B4474 /* GenericParticleFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GenericParticleFilter.h; sourceTree = "<group>"; };
+		53D3C54807414F38004B4474 /* GenericParticleFilter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GenericParticleFilter.m; sourceTree = "<group>"; };
+		53D3C54907414F38004B4474 /* GenericSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GenericSystem.h; sourceTree = "<group>"; };
+		53D3C54A07414F38004B4474 /* GenericSystem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GenericSystem.m; sourceTree = "<group>"; };
+		53D3C54B07414F38004B4474 /* HullWhiteOne.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HullWhiteOne.h; sourceTree = "<group>"; };
+		53D3C54C07414F38004B4474 /* HullWhiteOne.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = HullWhiteOne.mm; sourceTree = "<group>"; };
+		53D3C54D07414F38004B4474 /* RandomNumberGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RandomNumberGenerator.h; sourceTree = "<group>"; };
+		53D3C54E07414F38004B4474 /* RandomNumberGenerator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RandomNumberGenerator.m; sourceTree = "<group>"; };
+		53D3C55C07414F4C004B4474 /* SimpleSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SimpleSystem.h; sourceTree = "<group>"; };
+		53D3C55D07414F4C004B4474 /* SimpleSystem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SimpleSystem.m; sourceTree = "<group>"; };
+		53D3C56207414F8D004B4474 /* random.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		53D3C586074150C7004B4474 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		53D3C587074150C7004B4474 /* Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
+		53EC72EA0A29D872004C918A /* Bezier2D.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Bezier2D.cpp; path = ../../../Develop/projects/CAGD/src/Bezier2D.cpp; sourceTree = SOURCE_ROOT; };
+		53EC72EB0A29D872004C918A /* CAGD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAGD.cpp; path = ../../../Develop/projects/CAGD/src/CAGD.cpp; sourceTree = SOURCE_ROOT; };
+		53EC72EC0A29D872004C918A /* CubicSpline2D.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CubicSpline2D.cpp; path = ../../../Develop/projects/CAGD/src/CubicSpline2D.cpp; sourceTree = SOURCE_ROOT; };
+		53EC72ED0A29D872004C918A /* Point2D.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Point2D.cpp; path = ../../../Develop/projects/CAGD/src/Point2D.cpp; sourceTree = SOURCE_ROOT; };
+		53EC72F20A29D880004C918A /* Bezier2D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Bezier2D.h; path = ../../../Develop/projects/CAGD/include/Bezier2D.h; sourceTree = SOURCE_ROOT; };
+		53EC72F30A29D880004C918A /* CAGD.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAGD.h; path = ../../../Develop/projects/CAGD/include/CAGD.h; sourceTree = SOURCE_ROOT; };
+		53EC72F40A29D880004C918A /* CubicSpline2D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CubicSpline2D.h; path = ../../../Develop/projects/CAGD/include/CubicSpline2D.h; sourceTree = SOURCE_ROOT; };
+		53EC72F50A29D880004C918A /* Point2D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Point2D.h; path = ../../../Develop/projects/CAGD/include/Point2D.h; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Cocoa GPF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa GPF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF2FB05182A1F2100208F92 /* Accelerate.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0E9FCB1A2AAFC7F300A1BD5C /* librandom.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53D3C586074150C7004B4474 /* Controller.h */,
+				53D3C587074150C7004B4474 /* Controller.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Cocoa GPF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Cocoa GPF */ = {
+			isa = PBXGroup;
+			children = (
+				53D3C55A07414F42004B4474 /* Test */,
+				53D3C54507414F1B004B4474 /* GenericParticleFilter */,
+				53D3C53907414F03004B4474 /* Support */,
+				53D3C51F07414E9F004B4474 /* CAGD */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Cocoa GPF";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Cocoa GPF_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9FCB192AAFC7F300A1BD5C /* librandom.a */,
+				0EF2FB04182A1F2100208F92 /* Accelerate.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D3C51F07414E9F004B4474 /* CAGD */ = {
+			isa = PBXGroup;
+			children = (
+				53EC72F20A29D880004C918A /* Bezier2D.h */,
+				53EC72F30A29D880004C918A /* CAGD.h */,
+				53EC72F40A29D880004C918A /* CubicSpline2D.h */,
+				53EC72F50A29D880004C918A /* Point2D.h */,
+				0EF2FB031828B20300208F92 /* Point3D.h */,
+				53EC72EA0A29D872004C918A /* Bezier2D.cpp */,
+				53EC72EB0A29D872004C918A /* CAGD.cpp */,
+				53EC72EC0A29D872004C918A /* CubicSpline2D.cpp */,
+				53EC72ED0A29D872004C918A /* Point2D.cpp */,
+			);
+			name = CAGD;
+			sourceTree = "<group>";
+		};
+		53D3C53907414F03004B4474 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				53D3C56207414F8D004B4474 /* random.h */,
+				53D3C53B07414F11004B4474 /* MathMatrix.h */,
+				53D3C53C07414F11004B4474 /* MathMatrix.m */,
+				53D3C53D07414F11004B4474 /* MathUtil.c */,
+				53D3C53E07414F11004B4474 /* MathUtil.h */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		53D3C54507414F1B004B4474 /* GenericParticleFilter */ = {
+			isa = PBXGroup;
+			children = (
+				53D3C54707414F38004B4474 /* GenericParticleFilter.h */,
+				53D3C54807414F38004B4474 /* GenericParticleFilter.m */,
+				53D3C54907414F38004B4474 /* GenericSystem.h */,
+				53D3C54A07414F38004B4474 /* GenericSystem.m */,
+				53D3C54B07414F38004B4474 /* HullWhiteOne.h */,
+				53D3C54C07414F38004B4474 /* HullWhiteOne.mm */,
+				5302DC670751AE5F00609068 /* HullWhiteTwo.h */,
+				5302DC680751AE5F00609068 /* HullWhiteTwo.mm */,
+				53D3C54D07414F38004B4474 /* RandomNumberGenerator.h */,
+				53D3C54E07414F38004B4474 /* RandomNumberGenerator.m */,
+			);
+			name = GenericParticleFilter;
+			sourceTree = "<group>";
+		};
+		53D3C55A07414F42004B4474 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0ECE03E6188CD8E0005E867C /* RandomWalk.h */,
+				0ECE03E7188CD8E0005E867C /* RandomWalk.m */,
+				53D3C55C07414F4C004B4474 /* SimpleSystem.h */,
+				53D3C55D07414F4C004B4474 /* SimpleSystem.m */,
+				535A1A0307530C3A0084BACA /* SimpleSystem2.h */,
+				535A1A0407530C3A0084BACA /* SimpleSystem2.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Cocoa GPF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537B2C870857AF2A0013C957 /* Build configuration list for PBXNativeTarget "Cocoa GPF" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoa GPF";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Cocoa GPF";
+			productReference = 8D1107320486CEB800E47090 /* Cocoa GPF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 537B2C8B0857AF2A0013C957 /* Build configuration list for PBXProject "Cocoa GPF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Cocoa GPF */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Cocoa GPF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				53D3C53F07414F11004B4474 /* MathMatrix.h in Resources */,
+				53D3C54207414F11004B4474 /* MathUtil.h in Resources */,
+				53D3C54F07414F38004B4474 /* GenericParticleFilter.h in Resources */,
+				53D3C55107414F38004B4474 /* GenericSystem.h in Resources */,
+				53D3C55307414F38004B4474 /* HullWhiteOne.h in Resources */,
+				53D3C55507414F38004B4474 /* RandomNumberGenerator.h in Resources */,
+				53D3C55E07414F4C004B4474 /* SimpleSystem.h in Resources */,
+				53D3C56307414F8D004B4474 /* random.h in Resources */,
+				53D3C588074150C7004B4474 /* Controller.h in Resources */,
+				5302DC690751AE5F00609068 /* HullWhiteTwo.h in Resources */,
+				535A1A0507530C3A0084BACA /* SimpleSystem2.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.mm in Sources */,
+				53D3C54007414F11004B4474 /* MathMatrix.m in Sources */,
+				53D3C54107414F11004B4474 /* MathUtil.c in Sources */,
+				53D3C55007414F38004B4474 /* GenericParticleFilter.m in Sources */,
+				53D3C55207414F38004B4474 /* GenericSystem.m in Sources */,
+				53D3C55407414F38004B4474 /* HullWhiteOne.mm in Sources */,
+				53D3C55607414F38004B4474 /* RandomNumberGenerator.m in Sources */,
+				0ECE03E8188CD8E0005E867C /* RandomWalk.m in Sources */,
+				53D3C55F07414F4C004B4474 /* SimpleSystem.m in Sources */,
+				53D3C589074150C7004B4474 /* Controller.mm in Sources */,
+				5302DC6A0751AE5F00609068 /* HullWhiteTwo.mm in Sources */,
+				535A1A0607530C3A0084BACA /* SimpleSystem2.m in Sources */,
+				53EC72EE0A29D872004C918A /* Bezier2D.cpp in Sources */,
+				53EC72EF0A29D872004C918A /* CAGD.cpp in Sources */,
+				53EC72F00A29D872004C918A /* CubicSpline2D.cpp in Sources */,
+				53EC72F10A29D872004C918A /* Point2D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537B2C880857AF2A0013C957 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_CPU = G4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa GPF_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/cmookj/Documents/Develop/lib/random,
+					/Users/cmookj/Documents/Develop/include/CAGD,
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Cocoa GPF";
+				SDKROOT = macosx13.3;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		537B2C890857AF2A0013C957 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa GPF_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/cmookj/Documents/Develop/lib/random,
+					/Users/cmookj/Documents/Develop/include/CAGD,
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Cocoa GPF";
+				SDKROOT = macosx13.3;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		537B2C8A0857AF2A0013C957 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa GPF_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/cmookj/Documents/Develop/lib/random,
+					/Users/cmookj/Documents/Develop/include/CAGD,
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Cocoa GPF";
+				SDKROOT = macosx13.3;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		537B2C8C0857AF2A0013C957 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		537B2C8D0857AF2A0013C957 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		537B2C8E0857AF2A0013C957 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537B2C870857AF2A0013C957 /* Build configuration list for PBXNativeTarget "Cocoa GPF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537B2C880857AF2A0013C957 /* Development */,
+				537B2C890857AF2A0013C957 /* Deployment */,
+				537B2C8A0857AF2A0013C957 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		537B2C8B0857AF2A0013C957 /* Build configuration list for PBXProject "Cocoa GPF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537B2C8C0857AF2A0013C957 /* Development */,
+				537B2C8D0857AF2A0013C957 /* Deployment */,
+				537B2C8E0857AF2A0013C957 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
